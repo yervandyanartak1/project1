@@ -1,6 +1,0 @@
-name: "Test CI / CD "
-
-on:
-  push:
-     branches:
-        -test
