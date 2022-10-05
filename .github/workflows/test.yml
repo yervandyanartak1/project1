@@ -1,0 +1,18 @@
+name:"Test CI /CD"
+
+on:
+  push:
+    branches:
+        -main
+      workflow_dispatch:
+
+
+jobs:
+  Hello:
+    runs-on:ubuntu-latest
+    steps:
+      -uses: actions/checkout@v2
+      -name: hello world
+       run: echo "Hello world"
+
+
