@@ -16,5 +16,5 @@ jobs:
           host: ${{ secrets.WEB_HOST }}
           username: ${{ secrets.WEB_USER }}
           key: ${{ secrets.WEB_PRIVATE_KEY }}
-          source: "index.html , ./css/*, ./images/*"
+          source: "index.html"
           target: "/var/www/activebox/html/"
