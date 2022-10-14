@@ -14,6 +14,7 @@ jobs:
         uses: appleboy/scp-action@master
         with:
           host: ${{ secrets.WEB_HOST }}
+          port: ${{ secrets.WEB_PORT }}
           username: ${{ secrets.WEB_USER }}
           key: ${{ secrets.WEB_PRIVATE_KEY }}
           source: "index.html"
