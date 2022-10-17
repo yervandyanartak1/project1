@@ -17,5 +17,5 @@ jobs:
           port: ${{ secrets.WEB_PORT }}
           username: ${{ secrets.WEB_USER }}
           key: ${{ secrets.WEB_PRIVATE_KEY }}
-          source: "index.html"
+          source: "index.html , ./css/*, ./images.*"
           target: "/var/www/activebox/html/"
